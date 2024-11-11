@@ -1,0 +1,126 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 208, 0, 0.288);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#orange-logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+nav {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    display: block;
+    justify-content: left;
+    top: 0;
+    left: 0;
+    background-color: rgb(206, 152, 71);
+    border: solid;
+}
+
+nav header, nav img {
+    display: inline-flex;
+    text-align: center;
+}
+
+nav header {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+nav a {
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    left: 0;
+    text-decoration: none;
+    width: 91%;
+    margin-left: -40px;
+    color: black;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgb(172, 143, 89);
+}
+
+.first {
+    border-top: 2px solid;
+}
+
+.last {
+    border-bottom: 2px solid;
+}
+
+main {
+    margin-left: 300px;
+    margin-right: 50px;
+    position: absolute;
+}
+
+.main-section  {
+    margin-bottom: 3rem;
+}
+
+.main-section header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.main-section li {
+    margin: 1em;
+}
+
+.main-section p {
+    text-align: justify;
+}
+
+code {
+    display: inline-flex;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1;
+    padding: 20px 0px;
+}
+
+#Reference p {
+    text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+    nav{
+        width: 150px;
+    }
+
+    nav a {
+        padding: 20px 25px;
+    }
+
+    nav header {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    #orange-logo {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+}
